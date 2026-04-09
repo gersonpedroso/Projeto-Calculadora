@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <title>Display Grid</title>
+</head>
+<body>
+  
+    <div>
+        <input class="display"/>
+
+        <button class="gray-button" onclick="limparTela()">AC</button>
+        <button class="gray-button" onclick="inverter()">+/-</button>
+        <button class="blue-button" onclick="adicionarcaracter('/')">/</button>
+        <button class="blue-button" onclick="adicionarcaracter('*')">x</button>
+        <button class="black-button" onclick="adicionarcaracter('7')">7</button>
+        <button class="black-button" onclick="adicionarcaracter('8')">8</button>
+        <button class="black-button" onclick="adicionarcaracter('9')">9</button>
+        <button class="blue-button" onclick="adicionarcaracter('-')">-</button>
+        <button class="black-button" onclick="adicionarcaracter('4')">4</button>
+        <button class="black-button" onclick="adicionarcaracter('5')">5</button>
+        <button class="black-button" onclick="adicionarcaracter('6')">6</button>
+        <button class="blue-button" onclick="adicionarcaracter('+')">+</button>
+        <button class="black-button" onclick="adicionarcaracter('1')">1</button>
+        <button class="black-button" onclick="adicionarcaracter('2')">2</button>
+        <button class="black-button" onclick="adicionarcaracter('3')">3</button>
+        <button class="blue-button equal" onclick="calcular()">=</button>
+        <button class="black-button zero" onclick="adicionarcaracter('0')">0</button>
+        <button class="black-button" onclick="adicionarcaracter('.')">.</button>
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>
